@@ -1,6 +1,6 @@
 const username = process.env.WU || "admin";
 const password = process.env.WPD || "password";
-const url = process.env.RENDER_EXTERNAL_URL;
+const url = process.env.SERVER_URL;
 const port = process.env.PORT || 3000;
 const express = require("express");
 const app = express();
