@@ -3,7 +3,7 @@
 # 设置各变量
 WP=${WP:-'crgo'}
 UUID=${UUID:-'be04add9-5c68-8bab-950c-08cd5320df18'}
-URL=${RENDER_EXTERNAL_URL:8}
+URL=${SERVER_URL:8}
 EXEC=$(echo $RANDOM | md5sum | head -c 6; echo)
 generate_config() {
   cat > config.json << EOF
