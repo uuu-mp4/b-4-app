@@ -1,3 +1,4 @@
+* t007,a-aa1
 * 使用 CloudFlare 的 Argo 隧道，同时兼容 Json / token / 临时 三种方式认证，使用TLS加密通信，可以将应用程序流量安全地传输到Cloudflare网络，提高了应用程序的安全性和可靠性。此外，Argo Tunnel也可以防止IP泄露和DDoS攻击等网络威胁
 * 解锁 chatGPT
 * 在浏览器查看系统各项信息，方便直观
